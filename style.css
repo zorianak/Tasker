@@ -1,0 +1,50 @@
+/* CSS for Tasker */
+
+body {
+	font-family: myriad pro, arial, helvetica, sans-serif;
+}
+
+
+/* table styling */
+
+table {
+	border-collapse: collapse;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	float: left;
+	display: block;
+	margin: .5em;
+}
+
+.heading {
+	background-color: #eee;
+}
+
+.mainTable {
+	width: 960px;
+}
+
+.mainTD {
+	border: 1px #ccc solid;
+	padding: .5em;
+	margin: auto;
+}
+
+.holder {
+	border: 1px #ccc solid;
+
+	padding: .5em;
+	margin: auto;
+}
+
+/* stylings for priorities of things*/
+.critical {
+	background-color: red;
+}

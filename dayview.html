@@ -1,0 +1,62 @@
+<!--<?php session_start();
+/* this PHP code will basically connect to the MySQL DB and then 
+grab the important information that we need to display for the
+week view.
+*/
+
+?>-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Tasker App - Day View</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<div class="holder">
+	<h1 class="semester">Spring 2020 - Day View</h1>
+	
+	<div class="nav">
+		<select>
+			<option>None</option>
+			<!-- not adding code here, because we'll PHP in the names of peoples and things.-->
+		</select>
+		<ul class="navigation">
+			<li>ECS Home</li>
+			<li>New Task</li>
+			<li>All Tasks</li>
+			<li>Tasks by Day</li>
+			<li>Tasks by Week</li>
+			<li>Tasks by Semester</li>
+		</ul>
+	</div>
+	<div style="clear:both;"></div>
+	
+	<table colspan="8" class="mainTable">
+		<tr>
+			<td colspan="1" class="taskID heading mainTD">ID</td>
+			<td colspan="1" class="taskName heading mainTD">Name</td>
+			<td colspan="1" class="taskDescr heading mainTD">Description</td>
+			<td colspan="1" class="taskStatus heading mainTD">Status</td>
+			<td colspan="1" class="taskPriority heading mainTD">Priority</td>
+			<td colspan="1" class="taskCategory heading mainTD">Category</td>
+		</tr>
+	
+		<tr> <!-- we'll need to put PHP to link to the actual task.  Probably just grab the task ID
+		and make the link from that. -->
+			<td colspan="1" class="taskID mainTD">ID</td>
+			<td colspan="1" class="taskAdded mainTD">Name</td>
+			<td colspan="1" class="taskAdded mainTD">description</td>
+			<td colspan="1" class="taskAdded mainTD">status</td>
+			<td colspan="1" class="taskAdded mainTD">priority</td>
+			<td colspan="1" class="taskAdded mainTD">category</td>
+		</tr>
+	
+	</table>
+</div>
+</body>
+</html>

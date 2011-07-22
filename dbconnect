@@ -1,0 +1,7 @@
+<!--<?php session_start();
+/* this PHP code will basically connect to the MySQL DB and then 
+grab the important information that we need to display for the
+week view.
+*/
+
+?>-->
